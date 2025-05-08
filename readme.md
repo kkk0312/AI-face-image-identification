@@ -34,3 +34,4 @@ safetensors==safetensors
 
 根据多次训练测试，选择的超参数为4层隐藏层，'hidden\_dims': \[2048, 1024, 512, 256\],'dropout\_rate': 0\.3,'learning\_rate': 0\.001,'l2\_lambda': 0\.001,'batch\_size': 128,'num\_epochs': 20。通过dropout和L2正则化来防止过拟合，使用二元交叉熵函数作为损失函数。并通过使用随机剪裁、高斯模糊\+jpeg压缩等数据增强技术处理训练数据。
 
+具体模型设计思路可在doc文件的说明文档中查看
